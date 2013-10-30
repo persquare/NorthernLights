@@ -51,4 +51,5 @@ Scope, Markdown: Punctuation, nil,       #93a1a1,   nil,       punctuation.defin
 Scope, Markdown: LinkTitle,   nil,       #657b83,   nil,       string.other.link.title, string.other.link.description
 Scope, Markdown: Separator,   #fdf6e3,   #2aa198,   nil,       meta.separator.markdown
 Scope, Markdown: Image,       #eee8d5,   #93a1a1,   nil,       meta.image.*.markdown
-
+Scope, Markdown: Linebreak,   #eee8d580, nil,       nil,       markup.other.linebreak
+Scope, Style: Underline,      nil,       nil,       plain,     markup.underline
