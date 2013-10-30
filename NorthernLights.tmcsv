@@ -18,11 +18,11 @@
 // green      #859900  133 153   0   68 100  60
 //
 //
-// Type, author, name, semanticClass, uuid
-Header, Per Persson, NorthernLights, theme.northernlights, 4E81D34D-1E4B-43F0-8197-E3D5C4F22600
-// Type, background, foreground, caret, selection, invisibles, lineHighlight
-Main, #fdf6e3, #657b83, #dc322f, #cb4b1640, #eee8d580, #eee8d5
-// Type, name, background, foreground, fontStyle (bold, italic, underline), scopes (comma separated)
+// Type, author,      name,           semanticClass,        uuid
+Header,  Per Persson, NorthernLights, theme.northernlights, 4E81D34D-1E4B-43F0-8197-E3D5C4F22600
+// Type, background, foreground, caret,   selection, invisibles, lineHighlight
+Main,    #fdf6e3,    #657b83,    #dc322f, #cb4b1640, #eee8d580,  #eee8d5
+// Type, name,             background, foreground, fontStyle,  scopes (comma separated)
 Scope, Comment,               nil,       #93a1a1,   nil,       comment
 Scope, String,                nil,       #859900,   nil,       string
 Scope, Number,                nil,       #D33682,   nil,       constant.numeric
