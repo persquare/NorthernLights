@@ -43,7 +43,7 @@ Scope, Library class/type,    nil,       nil,       nil,       support.type, sup
 Scope, Library variable,      nil,       nil,       nil,       support.other.variable
 Scope, Invalid,               nil,       nil,       nil,       invalid
 Scope, Markdown: Raw,         nil,       #269186,   nil,       markup.raw.inline
-Scope, Markdown: Block,       #eee8d5,   nil,       nil,       markup.raw.block
+Scope, Markdown: Block,       #eee8d580, nil,       nil,       markup.raw.block
 Scope, Markdown: Heading,     nil,       #586e75,   nil,       markup.heading, punctuation.definition.heading
 Scope, Markdown: Quote,       nil,       #93a1a1,   italic,    markup.quote.markdown
 Scope, Markdown: Link,        nil,       #268bd2,   nil,       meta.link
