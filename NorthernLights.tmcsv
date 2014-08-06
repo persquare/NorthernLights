@@ -52,5 +52,6 @@ Scope, Markdown: LinkTitle,   nil,       #657b83,   nil,       string.other.link
 Scope, Markdown: Separator,   #fdf6e3,   #2aa198,   nil,       meta.separator.markdown
 Scope, Markdown: Image,       #eee8d5,   #93a1a1,   nil,       meta.image.*.markdown
 Scope, Markdown: Linebreak,   #eee8d580, nil,       nil,       markup.other.linebreak
+Scope, Markdown: Anchor,      nil,       #b58900,   nil,       markup.anchor.markdown
 // IMHO, underlining hurts readability.
 Scope, Style: Underline,      nil,       nil,       plain,     markup.underline
