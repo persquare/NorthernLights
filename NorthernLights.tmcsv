@@ -37,6 +37,7 @@ Scope, Inherited class,       nil,       nil,       nil,       entity.other.inhe
 Scope, Function name,         nil,       #268BD2,   nil,       entity.name.function
 Scope, Decorator,             nil,       #b58900,   nil,       entity.name.function.decorator, punctuation.definition.decorator
 Scope, Variable parameter,    nil,       #93a1a1,   nil,       variable.parameter
+Scope, Func parameter assign, nil,       #93a1a1,   nil,       meta.function-call.arguments keyword.operator.assignment
 Scope, Tag name,              nil,       #268BD2,   nil,       entity.name.tag
 Scope, Tag attribute,         nil,       #93A1A1,   nil,       entity.other.attribute-name
 Scope, Library function,      nil,       nil,       nil,       support.function
