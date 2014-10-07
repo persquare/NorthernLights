@@ -32,7 +32,7 @@ Scope, Escaped character,     nil,       #2AA198,   nil,       constant.characte
 Scope, Variable,              nil,       #6c71c4,   nil,       variable.language, variable.other
 Scope, Keyword,               nil,       #6C71C4,   nil,       keyword
 Scope, Storage,               nil,       #073642,   nil,       storage
-Scope, Class name,            nil,       #268BD2,   nil,       entity.name.class
+Scope, Class name,            nil,       #268BD2,   bold,      entity.name.type.class
 Scope, Inherited class,       nil,       nil,       nil,       entity.other.inherited-class
 Scope, Function name,         nil,       #268BD2,   nil,       entity.name.function
 Scope, Decorator,             nil,       #b58900,   nil,       entity.name.function.decorator, punctuation.definition.decorator
