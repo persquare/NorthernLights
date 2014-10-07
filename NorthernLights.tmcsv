@@ -43,7 +43,7 @@ Scope, Library function,      nil,       nil,       nil,       support.function
 Scope, Library constant,      nil,       nil,       nil,       support.constant
 Scope, Library class/type,    nil,       nil,       nil,       support.type, support.class
 Scope, Library variable,      nil,       nil,       nil,       support.other.variable
-Scope, Invalid,               #dc322f,   #fdf6e3,   nil,       invalid
+Scope, Invalid,               #dc322f80, #fdf6e3,   nil,       invalid
 Scope, Markdown: Raw,         nil,       #269186,   nil,       markup.raw.inline
 Scope, Markdown: Block,       #eee8d580, nil,       nil,       markup.raw.block
 Scope, Markdown: Heading,     nil,       #586e75,   nil,       markup.heading, punctuation.definition.heading
