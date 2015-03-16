@@ -61,5 +61,10 @@ Scope, Markdown: Anchor,      nil,       #b58900,   nil,       markup.anchor.mar
 // IMHO, underlining hurts readability.
 Scope, Style: Underline,      nil,       nil,       plain,     markup.underline
 // TextTasks
-Scope, Task: Header, 	      #eee8d5,	 #6c71c4,   nil,       meta.header
+Scope, Task: Header, 	        #eee8d5,	 #6c71c4,   nil,       meta.header
+// Python
+Scope, Python: exceptions,		nil,    	 #dc322f,	  nil,	     support.type.exception.python
+Scope, Python: builtin_func,	nil,	     #6c71c4,		bold,	     support.function.builtin.python
+Scope, Python: builtin_type,	nil,	     #6c71c4,		bold,	     support.type.python
+
 
