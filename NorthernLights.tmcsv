@@ -24,6 +24,7 @@ Header,  Per Persson, NorthernLights, theme.northernlights, 4E81D34D-1E4B-43F0-8
 Main,    #fdf6e3,    #657b83,    #dc322f, #cb4b1640, #cb4b1680,  #eee8d5
 // Type, name,             background, foreground, fontStyle,  scopes (comma separated)
 Scope, Comment,               nil,       #93a1a1,   nil,       comment
+Scope, Shebang,               nil,       #93a1a1,   bold,      comment.line.number-sign.shebang
 Scope, String,                nil,       #859900,   nil,       string
 Scope, Number,                nil,       #D33682,   nil,       constant.numeric
 Scope, Built-in constant,     nil,       #B58900,   nil,       constant.language
