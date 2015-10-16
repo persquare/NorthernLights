@@ -32,20 +32,21 @@ Scope, User-defined constant, nil,       #cb4b16,   nil,       constant.characte
 Scope, Escaped character,     nil,       #2aa198,   nil,       constant.character.escape
 Scope, Variable,              nil,       #6c71c4,   nil,       variable.language, variable.other
 Scope, Keyword,               nil,       #6c71c4,   nil,       keyword
-Scope, Storage,               nil,       #073642,   nil,       storage
+Scope, Storage,               nil,       #586e75,   nil,       storage, punctuation.definition.storage
 Scope, Storage string type,   nil,       #2aa198,   nil,       storage.type.string
 Scope, Class name,            nil,       #268bd2,   bold,      entity.name.type.class
 Scope, Inherited class,       nil,       nil,       nil,       entity.other.inherited-class
 Scope, Function name,         nil,       #268bd2,   nil,       entity.name.function
 Scope, Decorator,             nil,       #b58900,   nil,       entity.name.function.decorator, punctuation.definition.decorator
 Scope, Func parameter decl,   nil,       #586e75,   nil,       meta.function variable
+Scope, Func call,             nil,       #268bd2,   nil,       meta.function-call
 Scope, Func parameter name,   nil,       #93a1a1,   nil,       meta.function-call.arguments variable.parameter
 Scope, Func parameter assign, nil,       #93a1a1,   nil,       meta.function-call.arguments keyword.operator.assignment
 Scope, Tag name,              nil,       #268bd2,   nil,       entity.name.tag
 Scope, Tag attribute,         nil,       #93a1a1,   nil,       entity.other.attribute-name
 Scope, Library function,      nil,       nil,       nil,       support.function
 Scope, Library constant,      nil,       #cb4b16,   nil,       support.constant
-Scope, Library class/type,    nil,       nil,       nil,       support.type, support.class
+Scope, Library class/type,    nil,       #2aa198,   nil,       support.type, support.class
 Scope, Library variable,      nil,       nil,       nil,       support.other.variable
 Scope, Invalid,               #dc322f80, #fdf6e3,   nil,       invalid
 Scope, Markdown: Raw,         nil,       #269186,   nil,       markup.raw.inline
@@ -70,6 +71,11 @@ Scope, Python: builtin_func,  nil,       #6c71c4,   bold,      support.function.
 Scope, Python: builtin_type,  nil,       #6c71c4,   bold,      support.type.python
 // Calvin
 Scope, Calvin: variable,      nil,       nil,       bold,       variable.other.calvin
+Scope, Calvin: embedded,      nil,       nil,       italic,     source.calvin.embedded
+// ObjC, ObjJ
+Scope, ObjX: message,         nil,       #657b83,   nil,       meta.bracketed
+Scope, ObjX: message bracks,  nil,       #586e75,   nil,       meta.bracketed punctuation.section
+
 
 
 
