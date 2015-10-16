@@ -69,8 +69,8 @@ Scope, Python: exceptions,    nil,       #dc322f,   nil,       support.type.exce
 Scope, Python: builtin_func,  nil,       #6c71c4,   bold,      support.function.builtin.python
 Scope, Python: builtin_type,  nil,       #6c71c4,   bold,      support.type.python
 // Calvin
-Scope, Calvin: variable,      nil,       nil,       bold,       variable.other.calvin
-
+Scope, Calvin: variable,      nil,       nil,       bold,      variable.other.calvin
+Scope, Calvin: embedded,      nil,       nil,       italic,    source.calvin.embedded
 
 
 
