@@ -35,11 +35,12 @@ Scope, Keyword,               nil,       #6c71c4,   nil,       keyword
 Scope, Storage,               nil,       #586e75,   nil,       storage, punctuation.definition.storage
 Scope, Storage string type,   nil,       #2aa198,   nil,       storage.type.string
 Scope, Class name,            nil,       #268bd2,   bold,      entity.name.type.class
-Scope, Inherited class,       nil,       nil,       nil,       entity.other.inherited-class
-Scope, Function name,         nil,       #268bd2,   nil,       entity.name.function
+Scope, Inherited class,       nil,       #268bd2,   nil,       entity.other.inherited-class
+Scope, Function name,         nil,       #268bd2,   bold,       entity.name.function
 Scope, Decorator,             nil,       #b58900,   nil,       entity.name.function.decorator, punctuation.definition.decorator
 Scope, Func parameter decl,   nil,       #586e75,   nil,       meta.function variable
 Scope, Func call,             nil,       #268bd2,   nil,       meta.function-call
+Scope, Func call parameter,   nil,       #657b83,   nil,       meta.function-call.arguments
 Scope, Func parameter name,   nil,       #93a1a1,   nil,       meta.function-call.arguments variable.parameter
 Scope, Func parameter assign, nil,       #93a1a1,   nil,       meta.function-call.arguments keyword.operator.assignment
 Scope, Tag name,              nil,       #268bd2,   nil,       entity.name.tag
