@@ -76,6 +76,11 @@ Scope, Calvin: embedded,      nil,       nil,       italic,    source.calvin.emb
 // ObjC, ObjJ
 Scope, ObjX: message,         nil,       #657b83,   nil,       meta.bracketed
 Scope, ObjX: message bracks,  nil,       #586e75,   nil,       meta.bracketed punctuation.section
+Scope, ObjX: function brace,  nil,       #586e75,   nil,       meta.function-call meta.brace.round
+Scope, ObjX: return type,     nil,       #d33682,   nil,       meta.return-type
+Scope, ObjX: ivar type,       nil,       #2aa198,   nil,       entity.name.type
+Scope, ObjX: category name,   nil,       #6c71c4,   nil,       source.js.objj entity.name.tag
+
 
 
 
