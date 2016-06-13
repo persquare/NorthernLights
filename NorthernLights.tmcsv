@@ -50,6 +50,22 @@ Main,    #fdf6e3,    #657b83,    #dc322f, #cb4b1640, #cb4b1680,  #eee8d5
 // Type, background, foreground, divider, selectBG, selectFG
 Gutter,  #eee8d5,    #93a1a1,    #93a1a1, #2aa198,   #fdf6e3
 // Type, name,             background, foreground, fontStyle,  scopes (comma separated)
+Scope, base03,                nil,       #002b36,   nil,       meta.color.hex.002b36
+Scope, base02,                nil,       #073642,   nil,       meta.color.hex.073642
+Scope, base01,                nil,       #586e75,   nil,       meta.color.hex.586e75
+Scope, base00,                nil,       #657b83,   nil,       meta.color.hex.657b83
+Scope, base0,                 nil,       #839496,   nil,       meta.color.hex.839496
+Scope, base1,                 nil,       #93a1a1,   nil,       meta.color.hex.93a1a1
+Scope, base2,                 #586e75,   #eee8d5,   nil,       meta.color.hex.eee8d5
+Scope, base3,                 #657b83,   #fdf6e3,   nil,       meta.color.hex.fdf6e3
+Scope, yellow,                nil,       #b58900,   nil,       meta.color.hex.b58900
+Scope, orange,                nil,       #cb4b16,   nil,       meta.color.hex.cb4b16
+Scope, red,                   nil,       #dc322f,   nil,       meta.color.hex.dc322f
+Scope, magenta,               nil,       #d33682,   nil,       meta.color.hex.d33682
+Scope, violet,                nil,       #6c71c4,   nil,       meta.color.hex.6c71c4
+Scope, blue,                  nil,       #268bd2,   nil,       meta.color.hex.268bd2
+Scope, cyan,                  nil,       #2aa198,   nil,       meta.color.hex.2aa198
+Scope, green,                 nil,       #859900,   nil,       meta.color.hex.859900
 Scope, Comment,               nil,       #93a1a1,   nil,       comment
 Scope, Shebang,               nil,       #d33682,   nil,       comment.line.number-sign.shebang
 Scope, String,                nil,       #859900,   nil,       string
