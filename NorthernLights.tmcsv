@@ -107,6 +107,12 @@ Scope, ObjX: function brace,  nil,       #586e75,   nil,       meta.function-cal
 Scope, ObjX: return type,     nil,       #d33682,   nil,       meta.return-type
 Scope, ObjX: ivar type,       nil,       #2aa198,   nil,       entity.name.type
 Scope, ObjX: category name,   nil,       #6c71c4,   nil,       source.js.objj entity.name.tag
+// Latex
+Scope, Latex: Grouping,       #eee8d580, nil,       nil,       meta.group.braces -meta.function.environment  
+Scope, Latex: Function,       nil,       #6c71c4,   nil,       support.function, meta.function -meta.function.environment
+Scope, Latex: Section,        nil,       nil,       bold,      meta.function.section
+Scope, Latex: Ref or Label,   nil,       #cb4b16,   nil,       meta.reference.label, meta.definition.label
+
 
 
 
