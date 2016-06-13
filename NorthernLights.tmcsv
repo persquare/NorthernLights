@@ -47,6 +47,8 @@
 Header,  Per Persson, NorthernLights, theme.northernlights, 4E81D34D-1E4B-43F0-8197-E3D5C4F22600
 // Type, background, foreground, caret,   selection, invisibles, lineHighlight
 Main,    #fdf6e3,    #657b83,    #dc322f, #cb4b1640, #cb4b1680,  #eee8d5
+// Type, background, foreground, divider, selectBG, selectFG
+Gutter,  #eee8d5,    #93a1a1,    #93a1a1, #2aa198,   #fdf6e3
 // Type, name,             background, foreground, fontStyle,  scopes (comma separated)
 Scope, Comment,               nil,       #93a1a1,   nil,       comment
 Scope, Shebang,               nil,       #d33682,   nil,       comment.line.number-sign.shebang
