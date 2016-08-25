@@ -69,7 +69,7 @@ Scope, green,                 nil,       #859900,   nil,       meta.color.hex.85
 Scope, Comment,               nil,       #93a1a1,   nil,       comment
 Scope, Shebang,               nil,       #d33682,   nil,       comment.line.number-sign.shebang
 Scope, String,                nil,       #859900,   nil,       string
-Scope, Number,                nil,       #d33682,   nil,       constant.numeric
+Scope, Number,                nil,       #d33682,   nil,       constant.numeric, constant.other.allcaps
 Scope, Built-in constant,     nil,       #b58900,   nil,       constant.language
 Scope, User-defined constant, nil,       #cb4b16,   nil,       constant.character, constant.other
 Scope, Escaped character,     nil,       #2aa198,   nil,       constant.character.escape
