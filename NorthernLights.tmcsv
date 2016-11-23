@@ -114,6 +114,7 @@ Scope, Python: exceptions,    nil,       #dc322f,   nil,       support.type.exce
 Scope, Python: builtin_func,  nil,       #6c71c4,   bold,      support.function.builtin.python
 Scope, Python: builtin_type,  nil,       #6c71c4,   bold,      support.type.python
 Scope, Python: def,           nil,       nil,       bold,      storage.type.function.python
+Scope, Python: async,         nil,       #b58900,   bold,      storage.modifier.async.python, keyword.control.flow.async.python
 // Calvin
 Scope, Calvin: variable,      nil,       nil,       bold,      variable.other.calvin
 Scope, Calvin: embedded,      nil,       nil,       italic,    source.calvin.embedded
