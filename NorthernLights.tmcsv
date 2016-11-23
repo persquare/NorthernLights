@@ -117,7 +117,7 @@ Scope, Python: def,           nil,       nil,       bold,      storage.type.func
 Scope, Python: async,         nil,       #b58900,   bold,      storage.modifier.async.python, keyword.control.flow.async.python
 // Calvin
 Scope, Calvin: variable,      nil,       nil,       bold,      variable.other.calvin
-Scope, Calvin: embedded,      nil,       nil,       italic,    source.calvin.embedded
+Scope, Calvin: embedded,      nil,       nil,       italic,    source.calvin.embedded, source.calvin meta.deployscript
 // ObjC, ObjJ
 Scope, ObjX: message,         nil,       #657b83,   nil,       meta.bracketed
 Scope, ObjX: message bracks,  nil,       #586e75,   nil,       meta.bracketed punctuation.section
