@@ -79,7 +79,7 @@ Scope, Storage,               nil,       #586e75,   nil,       storage, punctuat
 Scope, Storage string type,   nil,       #2aa198,   nil,       storage.type.string
 Scope, Class name,            nil,       #268bd2,   bold,      entity.name.type.class
 Scope, Inherited class,       nil,       #268bd2,   nil,       entity.other.inherited-class
-Scope, Function name,         nil,       #268bd2,   bold,       entity.name.function
+Scope, Function name,         nil,       #268bd2,   bold,      entity.name.function
 Scope, Decorator,             nil,       #b58900,   nil,       entity.name.function.decorator, punctuation.definition.decorator
 Scope, Func parameter decl,   nil,       #586e75,   nil,       meta.function variable
 Scope, Func call,             nil,       #268bd2,   nil,       meta.function-call
