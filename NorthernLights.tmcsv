@@ -118,6 +118,10 @@ Scope, Python: async,         nil,       #b58900,   bold,      storage.modifier.
 // Calvin
 Scope, Calvin: variable,      nil,       nil,       bold,      variable.other.calvin
 Scope, Calvin: embedded,      nil,       nil,       italic,    source.calvin.embedded, source.calvin meta.deployscript
+Scope, Calvin: ref label,     nil,       #268bd2,   nil,       meta.reference.label.calvin
+Scope, Calvin: def label,     nil,       #268bd2,   nil,       meta.definition.label.calvin
+Scope, Calvin: ref decorator, nil,       #268bd2,   nil,      meta.reference.decorator.calvin
+Scope, Calvin: def decorator, nil,       #268bd2,   nil,      meta.definition.decorator.calvin
 // ObjC, ObjJ
 Scope, ObjX: message,         nil,       #657b83,   nil,       meta.bracketed
 Scope, ObjX: message bracks,  nil,       #586e75,   nil,       meta.bracketed punctuation.section
