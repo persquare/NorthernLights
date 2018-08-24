@@ -46,10 +46,11 @@
 // Type, author,      name,           semanticClass,        uuid
 Header,  Per Persson, NorthernLights, theme.northernlights, 4E81D34D-1E4B-43F0-8197-E3D5C4F22600
 // Type, background, foreground, caret,   selection, invisibles, lineHighlight
-Main,    #fdf6e3,    #657b83,    #dc322f, #cb4b1640, #cb4b1680,  #eee8d5
+Main,    #fdf6e3,    #586e75,    #dc322f, #cb4b1640, #cb4b1680,  #eee8d5
 // Type, background, foreground, divider, selectBG, selectFG
 Gutter,  #eee8d5,    #93a1a1,    #93a1a1, #2aa198,   #fdf6e3
 // Type, name,             background, foreground, fontStyle,  scopes (comma separated)
+Scope, color,                 nil,       #002b36,   nil,       meta.color
 Scope, base03,                nil,       #002b36,   nil,       meta.color.hex.002b36
 Scope, base02,                nil,       #073642,   nil,       meta.color.hex.073642
 Scope, base01,                nil,       #586e75,   nil,       meta.color.hex.586e75
@@ -79,8 +80,9 @@ Scope, Storage,               nil,       #586e75,   nil,       storage, punctuat
 Scope, Storage string type,   nil,       #2aa198,   nil,       storage.type.string
 Scope, Class name,            nil,       #268bd2,   bold,      entity.name.type.class
 Scope, Inherited class,       nil,       #268bd2,   nil,       entity.other.inherited-class
-Scope, Function name,         nil,       #268bd2,   bold,      entity.name.function
-Scope, Decorator,             nil,       #b58900,   nil,       entity.name.function.decorator, punctuation.definition.decorator
+Scope, Function name,         nil,       #268bd2,   bold,      entity.name.function, variable.other.stereotype.plantuml
+Scope, Decorator,             nil,       #b58900,   nil,       entity.name.function.decorator,  punctuation.definition.decorator, meta.preprocessor
+Scope, Preprocessor,          nil,       #b58900,   bold,      meta.preprocessor
 Scope, Func parameter decl,   nil,       #586e75,   nil,       meta.function variable
 Scope, Func call,             nil,       #268bd2,   nil,       meta.function-call
 Scope, Func call parameter,   nil,       #657b83,   nil,       meta.function-call.arguments
@@ -134,6 +136,8 @@ Scope, Latex: Grouping,       #eee8d580, nil,       nil,       meta.group.braces
 Scope, Latex: Function,       nil,       #6c71c4,   nil,       support.function, meta.function -meta.function.environment
 Scope, Latex: Section,        nil,       nil,       bold,      meta.function.section
 Scope, Latex: Ref or Label,   nil,       #cb4b16,   nil,       meta.reference.label, meta.definition.label
+// PlantUML
+Scope, PlantUML: Operator,    nil,       #dc322f,   bold,      keyword.operator 
 
 
 
