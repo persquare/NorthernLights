@@ -97,7 +97,7 @@ Scope, Library variable,      nil,       nil,       nil,       support.other.var
 Scope, Invalid,               #dc322f80, #fdf6e3,   nil,       invalid
 Scope, Markdown: Raw,         nil,       #269186,   nil,       markup.raw.inline
 Scope, Markdown: Block,       #eee8d580, nil,       nil,       markup.raw.block
-Scope, Markdown: Heading,     nil,       #586e75,   nil,       markup.heading, punctuation.definition.heading
+Scope, Markdown: Heading,     nil,       #6c71c4,   nil,       markup.heading, punctuation.definition.heading
 Scope, Markdown: Quote,       nil,       #93a1a1,   italic,    markup.quote.markdown
 Scope, Markdown: Link,        nil,       #268bd2,   nil,       meta.link
 Scope, Markdown: Punctuation, nil,       #93a1a1,   nil,       punctuation.definition
@@ -107,6 +107,7 @@ Scope, Markdown: Separator,   #fdf6e3,   #2aa198,   nil,       meta.separator.ma
 Scope, Markdown: Image,       #eee8d5,   #93a1a1,   nil,       meta.image.*.markdown
 Scope, Markdown: Linebreak,   #eee8d580, nil,       nil,       markup.other.linebreak
 Scope, Markdown: Anchor,      nil,       #b58900,   nil,       markup.anchor.markdown
+Scope, Markdown: Comment,     nil,       #dc322f,   nil,       text.html.markdown comment.block.html
 // IMHO, underlining hurts readability.
 Scope, Style: Underline,      nil,       nil,       plain,     markup.underline
 // TextTasks
