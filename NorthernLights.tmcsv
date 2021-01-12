@@ -107,7 +107,10 @@ Scope, Markdown: Separator,   #fdf6e3,   #2aa198,   nil,       meta.separator.ma
 Scope, Markdown: Image,       #eee8d5,   #93a1a1,   nil,       meta.image.*.markdown
 Scope, Markdown: Linebreak,   #eee8d580, nil,       nil,       markup.other.linebreak
 Scope, Markdown: Anchor,      nil,       #b58900,   nil,       markup.anchor.markdown
-Scope, Markdown: Comment,     nil,       #dc322f,   nil,       text.html.markdown comment.block.html
+Scope, Markdown: CommentMark, nil,       #cb4b16,   bold,       punctuation.definition.comment.html
+Scope, Markdown: Comment,     nil,       #93a1a1,   nil,       text.html.markdown comment.block.html
+Scope, Markdown: Numlist,     nil,       #859900,   nil,       markup.list.numbered
+Scope, Markdown: List,        nil,       #859900,   nil,       markup.list.unnumbered
 // IMHO, underlining hurts readability.
 Scope, Style: Underline,      nil,       nil,       plain,     markup.underline
 // TextTasks
