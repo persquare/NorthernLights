@@ -142,7 +142,11 @@ Scope, Latex: Section,        nil,       nil,       bold,      meta.function.sec
 Scope, Latex: Ref or Label,   nil,       #cb4b16,   nil,       meta.reference.label, meta.definition.label
 // PlantUML
 Scope, PlantUML: Operator,    nil,       #dc322f,   bold,      keyword.operator 
-
+// ARM asm
+Scope, ASM: Directive,        nil,       #b58900,   nil,       keyword.control.directive
+Scope, ASM: Label,            nil,       #586e75,   bold,      meta.function.source.arm.label
+// C
+Scope, C: variable-access,    nil,       #cb4b16,   nil,       punctuation.separator.variable-access
 
 
 
