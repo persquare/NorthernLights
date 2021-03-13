@@ -66,16 +66,16 @@ Scope, magenta,               nil,       #d33682,   nil,       meta.color.hex.d3
 Scope, violet,                nil,       #6c71c4,   nil,       meta.color.hex.6c71c4
 Scope, blue,                  nil,       #268bd2,   nil,       meta.color.hex.268bd2
 Scope, cyan,                  nil,       #2aa198,   nil,       meta.color.hex.2aa198
-Scope, green,                 nil,       #859900,   nil,       meta.color.hex.859900
+Scope, green,                 nil,       #6F7F01,   nil,       meta.color.hex.6F7F01
 Scope, Comment,               nil,       #93a1a1,   nil,       comment
 Scope, Shebang,               nil,       #d33682,   nil,       comment.line.number-sign.shebang
-Scope, String,                nil,       #859900,   nil,       string
+Scope, String,                nil,       #6F7F01,   nil,       string
 Scope, Number,                nil,       #d33682,   nil,       constant.numeric, constant.other.allcaps
 Scope, Built-in constant,     nil,       #b58900,   nil,       constant.language
 Scope, User-defined constant, nil,       #cb4b16,   nil,       constant.character, constant.other
 Scope, Escaped character,     nil,       #2aa198,   nil,       constant.character.escape
 Scope, Variable,              nil,       #6c71c4,   nil,       variable.language, variable.other
-Scope, Keyword,               nil,       #6c71c4,   nil,       keyword
+Scope, Keyword,               nil,       #6c71c4,   bold,      keyword
 Scope, Storage,               nil,       #586e75,   nil,       storage, punctuation.definition.storage
 Scope, Storage string type,   nil,       #2aa198,   nil,       storage.type.string
 Scope, Class name,            nil,       #268bd2,   bold,      entity.name.type.class
