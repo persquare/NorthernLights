@@ -147,6 +147,8 @@ Scope, ASM: Directive,        nil,       #b58900,   nil,       keyword.control.d
 Scope, ASM: Label,            nil,       #586e75,   bold,      meta.function.source.arm.label
 // C
 Scope, C: variable-access,    nil,       #cb4b16,   nil,       punctuation.separator.variable-access
+// Makefile 
+Scope, Make: Leading Tab,     #eee8d580,  nil,      nil,       meta.leading-tab.makefile
 
 
 
